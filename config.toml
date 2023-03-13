@@ -10,9 +10,9 @@ build-mindetach-module = true
 [YouTube]
 enabled = true
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = ""                                        # whitespace seperated list of patches to exclude (multiline strings are not supported)
-included-patches = "client-spoof custom-video-buffer custom-video-speed disable-shorts-on-startup downloads general-ads hide-watermark minimized-playback old-quality-layout open-links-externally premium-heading remember-playback-rate remember-video-quality return-youtube-dislike seekbar-tapping sponsorblock video-ads"                                                 # whitespace seperated list of patches to include
+excluded-patches = "custom-branding debugging spoof-app-version"                                        # whitespace seperated list of patches to exclude (multiline strings are not supported)
+included-patches = ""                                                 # whitespace seperated list of patches to include
 version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
-exclusive-patches = true                                             # excludes all patches by default
+exclusive-patches = false                                             # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrv-maxgisk"
