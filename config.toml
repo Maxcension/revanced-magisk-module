@@ -33,6 +33,6 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "Youtube"
 build-mode = "both"
 excluded-patches = ""
-included-patches = "add-splash-animation bypass-ambient-mode-restrictions custom-seekbar-color disable-shorts-on-startup enable-external-browser enable-minimized-playback enable-old-quality-layout enable-seekbar-tapping force-premium-heading hide-auto-player-popup-panels hide-channel-watermark hide-general-ads hide-video-ads materialyou optimize-resource return-youtube-dislike settings sponsorblock spoof-player-parameters translations"
+included-patches = "add-splash-animation bypass-ambient-mode-restrictions custom-seekbar-color disable-shorts-on-startup enable-external-browser enable-minimized-playback enable-old-quality-layout enable-seekbar-tapping force-premium-heading hide-auto-player-popup-panels hide-channel-watermark hide-general-ads hide-video-ads optimize-resource return-youtube-dislike settings sponsorblock spoof-player-parameters"
 exclusive-patches = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
