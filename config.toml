@@ -7,7 +7,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 [YouTube]
 enabled = false
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = "custom-branding debugging spoof-app-version"                                                 # space-seperated patches to exclude (multiline strings are not supported)
+excluded-patches = "'custom-branding' 'debugging' 'spoof-app-version'"                                                 # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
@@ -32,6 +32,6 @@ cli-source = "ReVanced/revanced-cli"
 rv-brand = "Youtube"
 build-mode = "both"
 excluded-patches = ""
-included-patches = "add-splash-animation bypass-ambient-mode-restrictions custom-seekbar-color disable-shorts-on-startup enable-external-browser enable-minimized-playback enable-old-quality-layout enable-seekbar-tapping force-premium-heading hide-auto-player-popup-panels hide-channel-watermark hide-general-ads hide-video-ads optimize-resource return-youtube-dislike settings sponsorblock spoof-player-parameters"
+included-patches = "'add-splash-animation' 'bypass-ambient-mode-restrictions' 'custom-seekbar-color' 'disable-shorts-on-startup' 'enable-external-browser' 'enable-minimized-playback' 'enable-old-quality-layout' 'enable-seekbar-tapping' 'force-premium-heading' 'hide-auto-player-popup-panels' 'hide-channel-watermark' 'hide-general-ads' 'hide-video-ads' 'optimize-resource' 'return-youtube-dislike' 'settings' 'sponsorblock' 'spoof-player-parameters'"
 exclusive-patches = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
