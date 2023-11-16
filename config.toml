@@ -26,9 +26,9 @@ apkmirror-arch = "both"
 [YouTube-Extended] # unmaintained
 enabled = true
 app-name = "YouTube"
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-integrations"
-cli-source = "ReVanced/revanced-cli"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
 rv-brand = "Youtube"
 build-mode = "both"
 excluded-patches = ""
