@@ -1,29 +1,12 @@
-YouTube-Extended: 18.33.40  
+YouTube-Extended: 18.45.38  
 
-Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
+Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
+Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
----
 Changelog:  
-CLI: ReVanced/revanced-cli-3.0.1-all.jar  
-Integrations: YT-Advanced/revanced-integrations-0.117.3.apk  
-Patches: YT-Advanced/revanced-patches-2.189.1.jar  
-
-### [2.190.0](https://github.com/YT-Advanced/ReX-patches/compare/v2.189.0...v2.190.0) (2023-08-29)
-
-## Note: Use Revanced Manager for build !
-
-### Bug Fixes
-
-* **youtube/hide-fullscreen-panel:** Not worked correctly
-
-
-### Features
-
-* Add support for `v18.33.40` ([4bdebec](https://github.com/YT-Advanced/ReX-patches/commit/4bdebecf38c4f17c8467e4adddc4c63861943e1e))
-
-
-
-
----  
+CLI: inotia00/revanced-cli-4.1.1-all.jar  
+Integrations: inotia00/revanced-integrations-0.121.1.apk  
+Patches: inotia00/revanced-patches-2.196.1.jar  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.196.1)  
